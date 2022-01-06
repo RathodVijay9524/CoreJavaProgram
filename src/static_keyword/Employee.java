@@ -42,3 +42,14 @@ class Test {
 		emp2.display();
 	}
 }
+
+       // static use for memory mgmt .... for memory eficency
+      // .... static can share memory for manny objects (stack area) ---stored
+/* 1]  A "static" methods belongs to the class, not to the object
+ * 2]  A "static" method can be accessed directly by class name and does'nt need any object
+ * 3]  A "static" method can access only static data. it cannot access non-static data(instance data)
+ * 4]  A "static" method can call only other static method and cannot call a non-static method
+ * 5]  A "static" method cannot refer to "this" or "super" keyword in anyway
+ * 
+ * */
+
